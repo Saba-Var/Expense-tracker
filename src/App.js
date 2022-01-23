@@ -4,8 +4,8 @@ import NewExpense from "./components/NewExpense/NewExpense";
 const DUMMY_EXPENSES = [
   {
     id: "e1",
-    title: "Toilet Paper",
-    amount: 94.12,
+    title: "T-shirt",
+    amount: 45,
     date: new Date(2020, 7, 14),
   },
   { id: "e2", title: "New TV", amount: 799.49, date: new Date(2021, 2, 12) },
@@ -18,8 +18,20 @@ const DUMMY_EXPENSES = [
   {
     id: "e4",
     title: "New Desk (Wooden)",
-    amount: 450,
-    date: new Date(2021, 5, 12),
+    amount: 320,
+    date: new Date(2020, 1, 12),
+  },
+  {
+    id: "e5",
+    title: "iphone x",
+    amount: 350,
+    date: new Date(2019, 5, 12),
+  },
+  {
+    id: "e6",
+    title: "Laptop",
+    amount: 999,
+    date: new Date(2019, 1, 12),
   },
 ];
 
